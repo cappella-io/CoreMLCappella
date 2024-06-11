@@ -32,7 +32,6 @@ class MelSpectrogram {
                         melSpectrogram[[0, 0, NSNumber(value: i), NSNumber(value: j)]] = NSNumber(value: value)
                     }
                 }
-                
                 return melSpectrogram
             }
 }

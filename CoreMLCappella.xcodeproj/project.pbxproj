@@ -20,6 +20,11 @@
 		1DACFAE42C132E1E0026C876 /* MelSpectrogramGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DACFAE32C132E1E0026C876 /* MelSpectrogramGenerator.swift */; };
 		1DACFAE62C181E960026C876 /* BabyCryDetectionModel.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = 1DACFAE52C181E950026C876 /* BabyCryDetectionModel.mlpackage */; };
 		1DACFAF02C1851460026C876 /* babyCrying.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1DACFAEF2C1851460026C876 /* babyCrying.wav */; };
+		1DACFAF42C187F4F0026C876 /* 35.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1DACFAF32C187F4F0026C876 /* 35.mp3 */; };
+		1DACFAF62C18805D0026C876 /* 10.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1DACFAF52C18805D0026C876 /* 10.wav */; };
+		1DACFAF82C188C190026C876 /* Melspectogram.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = 1DACFAF72C188C190026C876 /* Melspectogram.mlpackage */; };
+		1DACFAFA2C188CB70026C876 /* Mel_spectogram.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = 1DACFAF92C188CB70026C876 /* Mel_spectogram.mlpackage */; };
+		1DACFAFE2C1895690026C876 /* encodedBabyCryDetectionModel.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = 1DACFAFD2C1895690026C876 /* encodedBabyCryDetectionModel.mlpackage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +62,11 @@
 		1DACFAE32C132E1E0026C876 /* MelSpectrogramGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MelSpectrogramGenerator.swift; sourceTree = "<group>"; };
 		1DACFAE52C181E950026C876 /* BabyCryDetectionModel.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = BabyCryDetectionModel.mlpackage; sourceTree = "<group>"; };
 		1DACFAEF2C1851460026C876 /* babyCrying.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = babyCrying.wav; sourceTree = "<group>"; };
+		1DACFAF32C187F4F0026C876 /* 35.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 35.mp3; sourceTree = "<group>"; };
+		1DACFAF52C18805D0026C876 /* 10.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 10.wav; sourceTree = "<group>"; };
+		1DACFAF72C188C190026C876 /* Melspectogram.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = Melspectogram.mlpackage; sourceTree = "<group>"; };
+		1DACFAF92C188CB70026C876 /* Mel_spectogram.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = Mel_spectogram.mlpackage; sourceTree = "<group>"; };
+		1DACFAFD2C1895690026C876 /* encodedBabyCryDetectionModel.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = encodedBabyCryDetectionModel.mlpackage; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,8 +122,13 @@
 				1DACFAB32C11CBDF0026C876 /* ViewController.swift */,
 				1DACFAE32C132E1E0026C876 /* MelSpectrogramGenerator.swift */,
 				1DACFAE52C181E950026C876 /* BabyCryDetectionModel.mlpackage */,
+				1DACFAF72C188C190026C876 /* Melspectogram.mlpackage */,
+				1DACFAF92C188CB70026C876 /* Mel_spectogram.mlpackage */,
+				1DACFAFD2C1895690026C876 /* encodedBabyCryDetectionModel.mlpackage */,
 				1DACFAE12C1319F10026C876 /* test_m1.wav */,
 				1DACFAEF2C1851460026C876 /* babyCrying.wav */,
+				1DACFAF32C187F4F0026C876 /* 35.mp3 */,
+				1DACFAF52C18805D0026C876 /* 10.wav */,
 				1DACFAB52C11CBDF0026C876 /* Main.storyboard */,
 				1DACFAB82C11CBE00026C876 /* Assets.xcassets */,
 				1DACFABA2C11CBE00026C876 /* LaunchScreen.storyboard */,
@@ -245,9 +260,11 @@
 			files = (
 				1DACFAB92C11CBE00026C876 /* Assets.xcassets in Resources */,
 				1DACFABC2C11CBE00026C876 /* Base in Resources */,
+				1DACFAF42C187F4F0026C876 /* 35.mp3 in Resources */,
 				1DACFAE22C1319F10026C876 /* test_m1.wav in Resources */,
 				1DACFAF02C1851460026C876 /* babyCrying.wav in Resources */,
 				1DACFAB72C11CBDF0026C876 /* Base in Resources */,
+				1DACFAF62C18805D0026C876 /* 10.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,9 +291,12 @@
 			files = (
 				1DACFAE42C132E1E0026C876 /* MelSpectrogramGenerator.swift in Sources */,
 				1DACFAB42C11CBDF0026C876 /* ViewController.swift in Sources */,
+				1DACFAFA2C188CB70026C876 /* Mel_spectogram.mlpackage in Sources */,
 				1DACFAE62C181E960026C876 /* BabyCryDetectionModel.mlpackage in Sources */,
 				1DACFAB02C11CBDF0026C876 /* AppDelegate.swift in Sources */,
 				1DACFAB22C11CBDF0026C876 /* SceneDelegate.swift in Sources */,
+				1DACFAF82C188C190026C876 /* Melspectogram.mlpackage in Sources */,
+				1DACFAFE2C1895690026C876 /* encodedBabyCryDetectionModel.mlpackage in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,0 +1,74 @@
+Ú
+
+audio*
+
+ÄØ €R
+var_11*
+
+(­ €¢§¢9
+#com.github.apple.coremltools.sourcetorch==2.3.0+cu121¢:
++com.github.apple.coremltools.source_dialectTorchScript¢+
+$com.github.apple.coremltools.version7.2²¯¼
+main³
+
+audio
+
+
+ÄØCoreML5ˆ
+CoreML5üvar_11‘
+const#
+var_11
+
+
+(
+­*F
+val?
+
+
+(
+­*"
+@model_path/weights/weight.bin@*
+name
+
+	"
+op_11^
+identity
+x	
+
+audio!
+	audio_tmp
+
+
+ÄØ*
+name
+
+"
+	audio_tmp"ë
+	buildInfoÝ"
+
+
+Ê"Ç
+6
+!
+
+"
+coremltools-version
+	
+"
+7.2
+F
+)
+!
+"
+coremltools-component-torch
+
+"
+2.3.0+cu121
+E
+(
+ 
+"
+coremltools-source-dialect
+
+"
+TorchScript

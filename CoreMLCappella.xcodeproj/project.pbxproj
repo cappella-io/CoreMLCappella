@@ -25,6 +25,9 @@
 		1DACFAF82C188C190026C876 /* Melspectogram.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = 1DACFAF72C188C190026C876 /* Melspectogram.mlpackage */; };
 		1DACFAFA2C188CB70026C876 /* Mel_spectogram.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = 1DACFAF92C188CB70026C876 /* Mel_spectogram.mlpackage */; };
 		1DACFAFE2C1895690026C876 /* encodedBabyCryDetectionModel.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = 1DACFAFD2C1895690026C876 /* encodedBabyCryDetectionModel.mlpackage */; };
+		4479D5211EE22727B087E3D6 /* Pods_CoreMLCappella_CoreMLCappellaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64179BFC9A9363DB1DA8E8FE /* Pods_CoreMLCappella_CoreMLCappellaUITests.framework */; };
+		85468677145ABCA4B08B35E9 /* Pods_CoreMLCappella.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02DDA1F82903B2E2075C54C0 /* Pods_CoreMLCappella.framework */; };
+		B07266EEB2FA7A29CB52AA38 /* Pods_CoreMLCappellaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37C8282BFDCD21110AB6DE39 /* Pods_CoreMLCappellaTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02DDA1F82903B2E2075C54C0 /* Pods_CoreMLCappella.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoreMLCappella.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AC762EC6966805A3CE2A816 /* Pods-CoreMLCappella.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreMLCappella.debug.xcconfig"; path = "Target Support Files/Pods-CoreMLCappella/Pods-CoreMLCappella.debug.xcconfig"; sourceTree = "<group>"; };
+		17F2DCA01E56C0B1E318C608 /* Pods-CoreMLCappella-CoreMLCappellaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreMLCappella-CoreMLCappellaUITests.debug.xcconfig"; path = "Target Support Files/Pods-CoreMLCappella-CoreMLCappellaUITests/Pods-CoreMLCappella-CoreMLCappellaUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		1DACFAAC2C11CBDF0026C876 /* CoreMLCappella.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreMLCappella.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DACFAAF2C11CBDF0026C876 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1DACFAB12C11CBDF0026C876 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -67,6 +73,12 @@
 		1DACFAF72C188C190026C876 /* Melspectogram.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = Melspectogram.mlpackage; sourceTree = "<group>"; };
 		1DACFAF92C188CB70026C876 /* Mel_spectogram.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = Mel_spectogram.mlpackage; sourceTree = "<group>"; };
 		1DACFAFD2C1895690026C876 /* encodedBabyCryDetectionModel.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = encodedBabyCryDetectionModel.mlpackage; sourceTree = "<group>"; };
+		30CEC40BFB7BDFDAB4B5FD61 /* Pods-CoreMLCappellaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreMLCappellaTests.debug.xcconfig"; path = "Target Support Files/Pods-CoreMLCappellaTests/Pods-CoreMLCappellaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		37C8282BFDCD21110AB6DE39 /* Pods_CoreMLCappellaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoreMLCappellaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		64179BFC9A9363DB1DA8E8FE /* Pods_CoreMLCappella_CoreMLCappellaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoreMLCappella_CoreMLCappellaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FA058B17AC2271D175E814F /* Pods-CoreMLCappellaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreMLCappellaTests.release.xcconfig"; path = "Target Support Files/Pods-CoreMLCappellaTests/Pods-CoreMLCappellaTests.release.xcconfig"; sourceTree = "<group>"; };
+		93DA0B272534CE84A508C97D /* Pods-CoreMLCappella.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreMLCappella.release.xcconfig"; path = "Target Support Files/Pods-CoreMLCappella/Pods-CoreMLCappella.release.xcconfig"; sourceTree = "<group>"; };
+		E95E3088149383AD88606F40 /* Pods-CoreMLCappella-CoreMLCappellaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreMLCappella-CoreMLCappellaUITests.release.xcconfig"; path = "Target Support Files/Pods-CoreMLCappella-CoreMLCappellaUITests/Pods-CoreMLCappella-CoreMLCappellaUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85468677145ABCA4B08B35E9 /* Pods_CoreMLCappella.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B07266EEB2FA7A29CB52AA38 /* Pods_CoreMLCappellaTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4479D5211EE22727B087E3D6 /* Pods_CoreMLCappella_CoreMLCappellaUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,6 +116,8 @@
 				1DACFAC52C11CBE10026C876 /* CoreMLCappellaTests */,
 				1DACFACF2C11CBE10026C876 /* CoreMLCappellaUITests */,
 				1DACFAAD2C11CBDF0026C876 /* Products */,
+				B016B9A15DEB6414177A4579 /* Pods */,
+				6B9F12CF4E16100512D537C4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -154,6 +171,30 @@
 			path = CoreMLCappellaUITests;
 			sourceTree = "<group>";
 		};
+		6B9F12CF4E16100512D537C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				02DDA1F82903B2E2075C54C0 /* Pods_CoreMLCappella.framework */,
+				64179BFC9A9363DB1DA8E8FE /* Pods_CoreMLCappella_CoreMLCappellaUITests.framework */,
+				37C8282BFDCD21110AB6DE39 /* Pods_CoreMLCappellaTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B016B9A15DEB6414177A4579 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0AC762EC6966805A3CE2A816 /* Pods-CoreMLCappella.debug.xcconfig */,
+				93DA0B272534CE84A508C97D /* Pods-CoreMLCappella.release.xcconfig */,
+				17F2DCA01E56C0B1E318C608 /* Pods-CoreMLCappella-CoreMLCappellaUITests.debug.xcconfig */,
+				E95E3088149383AD88606F40 /* Pods-CoreMLCappella-CoreMLCappellaUITests.release.xcconfig */,
+				30CEC40BFB7BDFDAB4B5FD61 /* Pods-CoreMLCappellaTests.debug.xcconfig */,
+				6FA058B17AC2271D175E814F /* Pods-CoreMLCappellaTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -161,6 +202,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1DACFAD62C11CBE10026C876 /* Build configuration list for PBXNativeTarget "CoreMLCappella" */;
 			buildPhases = (
+				50082010AE04AA1701DB22F7 /* [CP] Check Pods Manifest.lock */,
 				1DACFAA82C11CBDF0026C876 /* Sources */,
 				1DACFAA92C11CBDF0026C876 /* Frameworks */,
 				1DACFAAA2C11CBDF0026C876 /* Resources */,
@@ -178,6 +220,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1DACFAD92C11CBE10026C876 /* Build configuration list for PBXNativeTarget "CoreMLCappellaTests" */;
 			buildPhases = (
+				21A484E43D84AF40115CB926 /* [CP] Check Pods Manifest.lock */,
 				1DACFABE2C11CBE10026C876 /* Sources */,
 				1DACFABF2C11CBE10026C876 /* Frameworks */,
 				1DACFAC02C11CBE10026C876 /* Resources */,
@@ -196,6 +239,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1DACFADC2C11CBE10026C876 /* Build configuration list for PBXNativeTarget "CoreMLCappellaUITests" */;
 			buildPhases = (
+				E98D87F6EEB6121B3EABFE5D /* [CP] Check Pods Manifest.lock */,
 				1DACFAC82C11CBE10026C876 /* Sources */,
 				1DACFAC92C11CBE10026C876 /* Frameworks */,
 				1DACFACA2C11CBE10026C876 /* Resources */,
@@ -283,6 +327,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		21A484E43D84AF40115CB926 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CoreMLCappellaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		50082010AE04AA1701DB22F7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CoreMLCappella-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E98D87F6EEB6121B3EABFE5D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CoreMLCappella-CoreMLCappellaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1DACFAA82C11CBDF0026C876 /* Sources */ = {
@@ -473,6 +586,7 @@
 		};
 		1DACFAD72C11CBE10026C876 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AC762EC6966805A3CE2A816 /* Pods-CoreMLCappella.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -502,6 +616,7 @@
 		};
 		1DACFAD82C11CBE10026C876 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93DA0B272534CE84A508C97D /* Pods-CoreMLCappella.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -531,6 +646,7 @@
 		};
 		1DACFADA2C11CBE10026C876 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30CEC40BFB7BDFDAB4B5FD61 /* Pods-CoreMLCappellaTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -551,6 +667,7 @@
 		};
 		1DACFADB2C11CBE10026C876 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FA058B17AC2271D175E814F /* Pods-CoreMLCappellaTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -571,6 +688,7 @@
 		};
 		1DACFADD2C11CBE10026C876 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17F2DCA01E56C0B1E318C608 /* Pods-CoreMLCappella-CoreMLCappellaUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -589,6 +707,7 @@
 		};
 		1DACFADE2C11CBE10026C876 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E95E3088149383AD88606F40 /* Pods-CoreMLCappella-CoreMLCappellaUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
